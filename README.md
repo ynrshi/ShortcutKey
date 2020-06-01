@@ -10,9 +10,7 @@ const key = [sk.keyCode.ctrl, sk.keyCode.e];
 // ショートカットキーの登録
 function touroku(){
     // ショートカットキーと処理を引数で渡す
-    sk.registerKey(key, () => {
-        $(".btn").click();
-    });
+    sk.registerKey(key, btnClick);
 }
 
 // ショートカットキーの解除
