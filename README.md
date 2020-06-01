@@ -1,6 +1,6 @@
 # ショートカットキーを簡単に登録できるクラス
 ## 使い方
-
+### JavaScript
 ``` javascript
 // newする
 const sk = new ShortcutKey(window);
